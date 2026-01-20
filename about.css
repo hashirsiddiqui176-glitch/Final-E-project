@@ -1,0 +1,185 @@
+body{
+    margin: 0%;
+    overflow: hidden;
+    background-color: rgb(252, 239, 239);
+}
+
+/* nav bar styling */
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 650px;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.heading{
+
+}
+
+.heading h1{
+    font-size: 30px;
+}
+.heading span{
+    color: orangered;
+
+}
+
+.heading h1:hover {
+    transition: transform 1.5s ease;
+    transform: scale(1.3);  
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+.links a:hover{
+    transition: transform 1.5s ease;
+    transform: scale(1.3);  
+    cursor: pointer;
+    color: orangered;
+    font-weight: 100;
+}
+
+/* Styling Middle section */
+.section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    gap: 60px;
+}
+
+.child{
+    padding-bottom: 85px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.child img{
+    width: 400px;
+    border-radius: 20px;
+    display: block;
+}
+
+.child img:hover{
+    transform: scale(1.08);
+    transition: transform 1.1s ease;
+    box-shadow: 0 0 40px rgba(255, 69, 0, 0.6);
+    cursor: pointer;
+}
+
+.childa{
+    
+    margin-bottom: 65px;
+    
+}
+
+#hjj{
+    font-size: 34px;
+    color: rgb(37, 12, 12);
+    text-decoration: underline rgb(255, 0, 0) 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+
+#pjj{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(25, 23, 48);
+    cursor: pointer;
+}
+#sjj{
+    font-weight: bolder;
+    color: rgb(7, 7, 61);
+    cursor: pointer;
+}
+
+#bjj{
+    padding: 7px 15px 7px 15px;
+    background-color: orangered;
+    border-radius: 50px;
+    border: orangered;
+    font-weight: bolder;
+    
+}
+
+#bjj:hover{
+    transform: scale(1.22);
+    transition: transform 1.1s ease;
+    box-shadow: 0 0 20px rgba(241, 8, 8, 0.6);
+    background-color: rgb(1, 1, 1);
+    color: rgb(244, 244, 244);
+    border: 2px solid rgb(230, 47, 47);
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* styling footer section */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#I{ 
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.icon img{
+     width: 25px;   
+     height: 25px;
+     margin-top:10px; 
+     gap: 10px; 
+}
+
+.icon img:hover{
+    transition: transform 1.3s ease;
+    transform: scale(1.5);  
+    cursor: pointer;
+    color: orangered;
+}
+
+#h{
+    margin-top: 5px;
+    margin-bottom:5px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+#h:hover{
+    transition: transform 1.5s ease;
+    transform: scale(1.3);  
+    cursor: pointer;
+    color: orangered;
+}
